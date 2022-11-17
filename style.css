@@ -114,6 +114,8 @@ input{
     margin-top: 164px;
 }
 
+
+
 #risultato{
     
     height: 6000px;
@@ -161,6 +163,20 @@ p{
     box-shadow: 0 0 40px rgba(10, 7, 31, 0.6);
     padding: 45px 35px;
     display: none;
+}
+
+
+#statocivile{
+    height: 35px;
+    width: 100%;
+    background-color: rgba(255, 46, 46, 0.07);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 #formdatipersonalirisp{

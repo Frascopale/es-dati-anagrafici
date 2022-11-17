@@ -34,7 +34,7 @@
             <form id="formcontatti">
                 <h3>Contatti</h3>
                 <label>Numero Telefonico</label><br>
-                <input type="text" placeholder="Numero Telefonico" id="numerotell"><br>
+                <input type="tel" placeholder="Numero Telefonico" id="numerotell"><br>
                 <label>E-mail</label><br>
                 <input type="text" placeholder="E-mail" id="email"><br>
                 <label>Indirizzo</label><br>
@@ -49,7 +49,15 @@
                 <label>Impiego</label><br>
                 <input type="text" placeholder="Impiego" id="impiego"><br>
                 <label>Stato Civile</label><br>
-                <input type="text" placeholder="Stato Civile" id="statocivile"><br>
+                <select  id="statocivile">
+                    
+                    <option value="Celibe/Nubile">Celibe/Nubile</option>
+                    <option value="Coniugato/a">Coniugato/a</option>
+                    <option value="Vedovo/a">Vedovo/a</option>
+                    <option value="Divorziato/a">Divorziato/a</option>
+                    <option value="Non classificabile/ignoto/n.c">Non classificabile/ignoto/n.c</option>
+                </select>
+                <br>
                 <input type="button" class="button" id="inseriscidatipersonali" value="Inserisci" />
             </form>
         </div>
